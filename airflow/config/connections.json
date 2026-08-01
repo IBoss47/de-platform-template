@@ -1,0 +1,18 @@
+{
+  "minio_conn": {
+    "conn_type": "aws",
+    "login": "minio",
+    "password": "minio123",
+    "extra": {
+      "endpoint_url": "http://minio:9000"
+    }
+  },
+  "clickhouse_conn": {
+    "conn_type": "clickhouse",
+    "host": "clickhouse",
+    "port": 8123,
+    "schema": "default",
+    "login": "default",
+    "password": "clickhouse"
+  }
+}
